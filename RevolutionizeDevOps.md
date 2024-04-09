@@ -1,6 +1,9 @@
+# RevolutionizeDevOps
+
 For the article focusing on GitOps using the project from our discussion as an example, let's create a Mermaid diagram that visually represents the workflow. This diagram will showcase the integration of GitOps principles, MinIO for object storage, and the deployment process via Docker Swarm, all within a CI/CD pipeline facilitated by GitHub Actions.
 
 The diagram will illustrate the following key steps:
+
 1. **Code Commit**: Developers push code to the repository.
 2. **CI Pipeline**: GitHub Actions trigger the CI pipeline upon code commit.
 3. **Build & Test**: The CI pipeline builds the Docker image and runs tests.
